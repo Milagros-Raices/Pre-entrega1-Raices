@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Josefin Slab", serif;;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navBar {
+    position: fixed;
+    width: 100%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.navBar ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.navBar ul li a {
+    color: #86592d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo-nav {
+    color: #86592d;
+    font-size: 37px;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.h1 {
+    height: 15rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color:  rgba(255, 163, 26, 0.8);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.firma {
+    height: 0.5rem;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
