@@ -1,6 +1,5 @@
 function simulacro() {
-//Algoritmo con ciclos
-let agregarAlCarrito = true; 
+let agregarAlCarrito = true;    //Algoritmo con ciclos
 let precioFinal = 0;
 
 while(agregarAlCarrito) {    
@@ -11,11 +10,9 @@ while(agregarAlCarrito) {
         precioFinal = precioFinal + precio;
     }
 }
-
 alert("El precio final es: $" + precioFinal);
 
-//Algoritmo condicional 
-    let cantidadDeProductos = Math.random () > 0.5;
+    let cantidadDeProductos = Math.random () > 0.5;    //Algoritmo condicional 
     
     if (cantidadDeProductos) {      
         let medioDePago = prompt("Desea pagar con: Mercado Pago, Tarjeta Debito, Tarjeta Credito").toLocaleLowerCase(); 
